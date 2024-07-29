@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-
 function Navbar() {
 	const navRef = useRef();
 
@@ -16,9 +15,9 @@ function Navbar() {
 			<h2>Rentify</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<nav ref={navRef}>
 				<a href="/#">Properties</a>
-				<a href="/#">Listings</a>
+				<a href="/listing">Listings</a>
 				<a href="/#">About us</a>
-				<a href="/#">Logout</a>
+				<a href="/">Logout</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
