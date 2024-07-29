@@ -1,7 +1,10 @@
 import Navbar from "../components/Navbar"
 import back from "../images/back.jpg"
+// import jwtDecode from 'jwt-decode';
+import { useEffect,useState } from "react"
 
 function Home(){
+   
     return(
         <>
         <Navbar />

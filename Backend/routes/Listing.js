@@ -17,5 +17,6 @@ const upload = multer({ storage: storage });
 
 router.post("/add", upload.single("image"), ListingController.addListing);
 router.get('/view', ListingController.getAllListings);
+router.get('/:id',ListingController.getListingById)
 
 module.exports = router;

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AddListing from './pages/AddListing';
 import Listing from './pages/Listing'
 import Listings from './pages/Listings';
+import UpdateListing from './pages/UpdateListing';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/addlisting" element={<AddListing />} />
           <Route path="/listing" element={<Listings />} />
+          <Route path="/updatelisting/:id" element={<UpdateListing />} />
         </Routes>
       </Router>
     </>
