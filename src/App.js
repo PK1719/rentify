@@ -7,6 +7,7 @@ import AddListing from './pages/AddListing';
 import Listing from './pages/Listing'
 import Listings from './pages/Listings';
 import UpdateListing from './pages/UpdateListing';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/addlisting" element={<AddListing />} />
           <Route path="/listing" element={<Listings />} />
           <Route path="/updatelisting/:id" element={<UpdateListing />} />
+          <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
       </Router>
     </>

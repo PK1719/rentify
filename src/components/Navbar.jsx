@@ -16,7 +16,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<a href="/#">Properties</a>
 				<a href="/listing">Listings</a>
-				<a href="/#">About us</a>
+				<a href="/aboutus">About us</a>
 				<a href="/">Logout</a>
 				<button
 					className="nav-btn nav-close-btn"
